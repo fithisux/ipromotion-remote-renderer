@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>GLFWWindow.h</itemPath>
+      <itemPath>RendLoad.h</itemPath>
+      <itemPath>RendStreamer.h</itemPath>
+      <itemPath>promorend.h</itemPath>
+      <itemPath>workitem.h</itemPath>
+      <itemPath>wqueue.h</itemPath>
+      <itemPath>zthread.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>GLFWWindow.cpp</itemPath>
+      <itemPath>RendLoad.cpp</itemPath>
+      <itemPath>RendStreamer.cpp</itemPath>
+      <itemPath>main1.cpp</itemPath>
+      <itemPath>promorend.cpp</itemPath>
+      <itemPath>zthread.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../../../../../langs/h3d/h3dapi-2.3.0/include</pElem>
+            <pElem>../../../../../langs/h3d/hapi-1.3.0/include</pElem>
+            <pElem>../../../../../langs/h3d/h3dutil-1.3.0/include</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/x86_64-w64-mingw32/include</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/include/glib-2.0</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/lib/glib-2.0/include</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/include/gdk-pixbuf-2.0</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/include</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/include/gstreamer-1.0</pElem>
+            <pElem>../../msys64/mingw64/include/boost</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLL_EXPORT</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libx3dsphere_D.${CND_DLIB_EXT}</output>
+          <linkerAddLib>
+            <pElem>../../../../../langs/h3d/builds/lib64</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/x86_64-w64-mingw32/lib</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/lib/glib-2.0</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>winpthread.dll</linkerLibLibItem>
+            <linkerLibLibItem>glfw3.dll</linkerLibLibItem>
+            <linkerLibLibItem>opengl32</linkerLibLibItem>
+            <linkerLibLibItem>glu32</linkerLibLibItem>
+            <linkerLibLibItem>gobject-2.0.dll</linkerLibLibItem>
+            <linkerLibLibItem>gstapp-1.0.dll</linkerLibLibItem>
+            <linkerLibLibItem>gstbase-1.0.dll</linkerLibLibItem>
+            <linkerLibLibItem>gstreamer-1.0.dll</linkerLibLibItem>
+            <linkerLibLibItem>gio-2.0.dll</linkerLibLibItem>
+            <linkerLibLibItem>glib-2.0.dll</linkerLibLibItem>
+            <linkerLibLibItem>gstvideo-1.0.dll</linkerLibLibItem>
+            <linkerLibLibItem>H3DAPI.dll</linkerLibLibItem>
+            <linkerLibLibItem>H3DUtil.dll</linkerLibLibItem>
+            <linkerLibLibItem>HAPI.dll</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="GLFWWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GLFWWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RendLoad.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RendLoad.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RendStreamer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RendStreamer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="promorend.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="promorend.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="workitem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="wqueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="zthread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="zthread.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>../../../../../langs/h3d/h3dapi-2.3.0/include</pElem>
+            <pElem>../../../../../langs/h3d/hapi-1.3.0/include</pElem>
+            <pElem>../../../../../langs/h3d/h3dutil-1.3.0/include</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/x86_64-w64-mingw32/include</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/include/glib-2.0</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/lib/glib-2.0/include</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/include/gdk-pixbuf-2.0</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/include</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/include/gstreamer-1.0</pElem>
+            <pElem>../../msys64/mingw64/include/boost</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DLL_EXPORT</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../../../../../langs/h3d/builds/lib64</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/x86_64-w64-mingw32/lib</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/lib/glib-2.0</pElem>
+            <pElem>../../../../../langs/msys64/mingw64/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>H3DAPI.dll</linkerLibLibItem>
+            <linkerLibLibItem>H3DUtil.dll</linkerLibLibItem>
+            <linkerLibLibItem>HAPI.dll</linkerLibLibItem>
+            <linkerLibLibItem>winpthread.dll</linkerLibLibItem>
+            <linkerLibLibItem>glfw3.dll</linkerLibLibItem>
+            <linkerLibLibItem>opengl32</linkerLibLibItem>
+            <linkerLibLibItem>glu32</linkerLibLibItem>
+            <linkerLibLibItem>gobject-2.0.dll</linkerLibLibItem>
+            <linkerLibLibItem>gstapp-1.0.dll</linkerLibLibItem>
+            <linkerLibLibItem>gstbase-1.0.dll</linkerLibLibItem>
+            <linkerLibLibItem>gstreamer-1.0.dll</linkerLibLibItem>
+            <linkerLibLibItem>gio-2.0.dll</linkerLibLibItem>
+            <linkerLibLibItem>glib-2.0.dll</linkerLibLibItem>
+            <linkerLibLibItem>gstvideo-1.0.dll</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="GLFWWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GLFWWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RendLoad.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RendLoad.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RendStreamer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RendStreamer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="promorend.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="promorend.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="workitem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="wqueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="zthread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="zthread.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

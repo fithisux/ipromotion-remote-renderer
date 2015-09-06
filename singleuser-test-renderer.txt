@@ -1,0 +1,16 @@
+In order to test the  renderer execute 
+
+c:\langs\ipromotion\promorenderer>.\promorenderer.exe --width=200 --height=200 --streamport=8000 --listenerport=8100 --x3dfile=c:/langs/ipromotion/Audi_Interactive/Audi.x3d
+
+
+This way the renderer is able to accept rest calls.
+
+They are the same as promonode, the main difference is that no user is active so, replace
+
+/{user-id} with /player
+
+In the above example it is
+
+http://localhost:8100/player/---REST END POINTS ---
+
+the stream is on 8000
